@@ -1,6 +1,6 @@
 # Kaggle Competitions
 
-En este repositorio, contiene el código fuente correspondiente a los proyectos desarrollados para las competiciones alojadas en la plataforma Kaggle.com.
+Este repositorio, contiene el código fuente correspondiente a los proyectos desarrollados para las competiciones alojadas en la plataforma Kaggle.com.
 
 ---
 
