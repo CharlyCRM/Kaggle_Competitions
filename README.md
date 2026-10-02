@@ -1,45 +1,27 @@
-# Kaggle Competitions
+# Cuadernos de aprendizaje de machine learning
 
-Este repositorio, contiene el código fuente correspondiente a los proyectos desarrollados para las competiciones alojadas en la plataforma Kaggle.com.
+Aquí reúno ejercicios de la etapa en la que estaba aprendiendo a preparar datos, construir pipelines y evaluar modelos. Los casos de vivienda y Titanic me sirvieron para recorrer el proceso completo, desde la exploración hasta las primeras predicciones.
 
----
+Es material de formación, no una colección de resultados de competición verificados. No atribuyo posiciones en rankings ni un rendimiento validado fuera de estos ejercicios.
 
-## California_Housing_Prediction
+## Qué encontrarás
 
-Este proyecto no solo representa un logro personal, sino que también lo he estructurado como una guía práctica para futuros proyectos. Al echar un vistazo, descubrirás una diversidad de soluciones aplicadas a desafíos comunes en análisis de datos y machine learning.
+- [California Housing](California_Housing.ipynb): exploración de datos de vivienda, muestreo, imputación, codificación, escalado y comparación de regresión lineal, árboles y random forest. Incluye validación cruzada y búsqueda de hiperparámetros.
+- [Titanic](Titanic_Machine_Learing_from_Disaster.ipynb): preparación de variables y un árbol de decisión para estudiar la supervivencia de pasajeros.
+- `NY-House-Dataset.csv`: archivo de datos conservado de otra práctica. El repositorio no incluye un tercer cuaderno de análisis de Nueva York.
 
-𝗔𝗾𝘂í 𝗵𝗮𝘆 𝘂𝗻 𝗮𝗱𝗲𝗹𝗮𝗻𝘁𝗼 𝗱𝗲 𝗹𝗼 𝗾𝘂𝗲 𝗲𝗻𝗰𝗼𝗻𝘁𝗿𝗮𝗿𝗮́𝘀:
-- Identificación de valores atípicos en variables categóricas
-- Visualización de histogramas para atributos numéricos
-- Estrategias de muestreo simple y estratificado para la creación de conjuntos de prueba
-- Herramientas interactivas como mapas de dispersión y diagramas de dispersión
-- Análisis de correlación mediante matrices
-- Ingeniería de características y limpieza de datos
-- Manejo de datos faltantes utilizando técnicas convencionales y avanzadas como 𝗦𝗶𝗺𝗽𝗹𝗲𝗜𝗺𝗽𝘂𝘁𝗲𝗿
-- Creación de transformadores personalizados y uso de pipelines
-- Normalización de características con 𝗦𝘁𝗮𝗻𝗱𝗮𝗿𝗦𝗰𝗮𝗹𝗲𝗿
-- Integración de variables categóricas y numéricas en un mismo 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲
-- Entrenamiento y evaluación de los modelos 𝗟𝗶𝗻𝗲𝗮𝗿𝗥𝗲𝗴𝗿𝗲𝘀𝘀𝗶𝗼𝗻, 𝗗𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝗧𝗿𝗲𝗲𝗥𝗲𝗴𝗿𝗲𝘀𝘀𝗼𝗿 y 𝗥𝗮𝗻𝗱𝗼𝗺𝗙𝗼𝗿𝗲𝘀𝘁𝗥𝗲𝗴𝗿𝗲𝘀𝘀𝗼𝗿
-- Optimización de modelos mediante búsqueda de hiperparámetros con 𝗚𝗿𝗶𝗱𝗦𝗲𝗮𝗿𝗰𝗵𝗖𝗩
+## Cómo leerlos
 
-<img width="497" alt="titanic" src=https://github.com/CharlyCRM/Kaggle_competitions/assets/136794111/12102765-ba7d-42fb-96de-61e5453649d1>
+Puedes abrir los notebooks directamente en GitHub. Las salidas guardadas reflejan ejecuciones del entorno original, no una evaluación actual ni una garantía de reproducción con versiones nuevas.
 
----
+California Housing busca `housing.csv`, que no está incluido. El cuaderno de Titanic conserva la ruta configurada durante el ejercicio. Antes de ejecutar, revisa esas rutas, consigue los datos correspondientes y comprueba las librerías importadas. Algunas imágenes y archivos externos tampoco forman parte del repositorio.
 
-## Titanic_Machine_Learing_from_Disaster
+Para trabajar en local necesitas Jupyter y las dependencias de cada cuaderno: pandas, NumPy, scikit-learn y las librerías de visualización utilizadas. Titanic también usa Graphviz. No hay un entorno de versiones fijado.
 
-El desafío que plantea esta competición consiste en la preparación de los datos para llevar a cabo un análisis predictivo. 
-El objetivo es desarrollar un modelo de aprendizaje automático capaz de prever la supervivencia o el fallecimiento de un pasajero en el hundimiento del Titanic.
-Para ello se ha implementado un algoritmo de DecisionTree.
+## Qué me aportaron
 
-<img width="497" alt="titanic" src="https://github.com/CharlyCRM/Kaggle_competitions/assets/136794111/3efa167d-0565-4694-8737-5eb28d246cf6">
+Estos ejercicios me ayudaron a separar preparación de datos, entrenamiento y evaluación, y a comparar un modelo sencillo con alternativas más flexibles. Los conservaría como punto de partida para rehacer una evaluación reproducible, no como evidencia de que un modelo está listo para producción.
 
----
+La predicción de vivienda es un caso didáctico, no una recomendación de inversión. Antes de reutilizar datos o material de estos cuadernos, revisa sus fuentes y condiciones de uso.
 
-## New York House
-
-El desafío que planeta esta competición ha sido utilizado para poner en práctica la técnica del one-hoy encoding, una técnica de procesamiento de variables categóricas. Esta técnica convierte una variable categórica en una representación numérica binaria. Básicamente, crea una nueva columna para cada categoría única en la variable original y asigna un valor de 1 o 0 para indicar la presencia o ausencia de cada categoría en una observación.⁣
-
-<img width="497" alt="New_York" src="https://github.com/CharlyCRM/Kaggle_competitions/assets/136794111/4f91f637-bdba-4855-9e6c-35122a1d0a25">
-
----
+Para ver proyectos más recientes con aplicaciones y pruebas, puedes visitar [mi portfolio](https://carlos-ramirez-martin.up.railway.app/es/).
